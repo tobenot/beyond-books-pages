@@ -1,0 +1,506 @@
+/* styles.css */
+/* 通用样式 */
+body, html {
+    font-family: 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F2F2F2;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* 禁止滚动 */
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 水平居中 */
+    align-items: center;
+    width: 90%;
+    height: auto;
+    max-width: 100%; /* 优化容器最大宽度 */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* 标题 */
+h1, h2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px; 
+}
+
+h2 {
+    font-size: 18px; 
+}
+
+#sectionsContainer, #storyContainer, #settings {
+    display: none;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+/* 按钮 */
+.button {
+    display: block;
+    width: 80%; /* 调整按钮宽度 */
+    padding: 10px 20px;
+    font-size: 16px; /* 调整按钮字体大小避免溢出 */
+    font-weight: 600;
+    margin: 10px auto;  /* 中间对齐 */
+    color: #333333;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #E0E0E0;
+    transform: translateY(-3px);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 512px;
+    max-width: 512px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* 文本容器 */
+.text-container {
+    flex: 1;
+    overflow-y: auto; /* 允许文本容器内部滚动 */
+    justify-content: safe center;
+    padding: 10px;
+    background-color: #FBFBFB;
+    border: 1px solid #E6E6E6;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    max-height: 600px; /* 固定最大高度 */
+    min-height: 450px; /* 固定最小高度 */
+}
+
+/* 控件 */
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* 控制输入框和按钮之间的间距 */
+}
+
+.controls input[type="text"] {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-size: 16px;
+}
+
+.controls .button {
+    width: auto; /* 使按钮根据内容自动调整大小 */
+    padding: 10px 20px; /* 调整按钮内填充 */
+}
+
+.menu-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 80%;
+    padding: 10px 20px;
+}
+
+.control-pair {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.settings-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px auto;  /* 中间对齐 */
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+/* loader的样式 */
+.loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loadingBar {
+    width: 100%;
+    height: 4px; /* 进度条高度 */
+    background-color: #f3f3f3;
+    margin-top: 8px;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+
+#progress {
+    background-color: #000;
+    height: 100%;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+.loaderSpin {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #000;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#sectionsContainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+#sections {
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    justify-content: safe center;
+    padding: 10px;
+    max-height: 600px; /* 固定最大高度 */
+    min-height: 450px; /* 固定最小高度 */
+}
+
+#sections .section {
+    margin: 10px 0;
+    width: 80%; /* 调整章节容器宽度 */
+    text-align: center;
+}
+
+.section img {
+    max-height: 256px;
+    max-width: 256px;
+}
+
+.section .button {
+    max-width: 384px;
+}
+
+.button-skip {
+    font-size: 0.8em; /* 调整字体大小 */
+    opacity: 0.7; /* 调整透明度 */
+    padding: 5px 10px; /* 调整内边距 */
+    background-color: #f0f0f0; /* 调整背景颜色 */
+    border: 1px solid #ccc; /* 调整边框 */
+    color: #666; /* 调整字体颜色 */
+}
+
+.button-skip:hover {
+    opacity: 1; /* 悬停时提高透明度 */
+    background-color: #e0e0e0; /* 悬停时改变背景颜色 */
+    color: #333; /* 悬停时改变字体颜色 */
+}
+
+.chapter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;  /* 占满父容器宽度 */
+    margin: 10px 0;
+}
+
+.storyContainer {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* 修改settings按钮容器的样式 */
+#settings .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 80%; /* 调整按钮容器的宽度 */
+    margin: auto; /* 设置容器水平居中 */
+}
+
+/* 修改设置页面输入框的样式 */
+#settingsContainer .settings-input {
+    width: 80%; /* 增加输入框宽度 */
+    padding: 8px; /* 调整内边距 */
+    margin-bottom: 10px; /* 减少底部外边距 */
+    font-size: 14px; /* 调整输入字体大小 */
+    font-family: inherit; /* 保持字体一致 */
+}
+
+/* 为下拉框添加样式 */
+#settingsContainer select.settings-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="#000" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>') no-repeat right 10px center;
+    background-color: #fff;
+    background-size: 8px 10px;
+}
+
+/* 修改设置页面标签的样式 */
+#settingsContainer label {
+    width: 80%; /* 调整标签宽度 */
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px; /* 调整底部外边距 */
+}
+
+/* 修改设置页面主容器的样式 */
+#settingsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 80%; /* 调整宽度提高自适应性 */
+    max-width: 600px; /* 限定最大宽度 */
+    background-color: #FFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    height: 80vh; /* 或者根据需要调整 */
+    max-height: 80vh; /* 确保在高度较大时仍然能够滚动 */
+}
+
+/* 修改设置页按钮 */
+#settings .button {
+    width: 100%;
+    padding: 12px 20px; /* 调整内边距 */
+    font-family: inherit; /* 保持字体一致 */
+}
+/* 弹框样式 */
+.modal {
+    display: none; 
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    justify-content: center; 
+    align-items: center; 
+}
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    text-align: left;
+}
+
+.modal-scroll {
+    height: 70vh;   
+    overflow-y: auto;
+}
+
+/* 万物运行... */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.special-term {
+    font-weight: bold;
+    text-shadow: 
+        -1px -1px 2px #000,  
+         1px -1px 2px #000,
+        -1px  1px 2px #000,
+         1px  1px 2px #000; /* 减少偏移量并添加模糊效果，使描边既柔和又不过于粗重 */
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* 添加对hover的支持，便于观察 */
+.special-term:hover {
+    background-color: #f0f0f0; /* 背景颜色变化 */
+}
+
+/* 术语解释 */
+#term-tooltip {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 256px;
+    word-wrap: break-word;
+}
+
+.term-tooltip-image {
+    max-width: 256px; /* 根据需求调整宽度 */
+    max-height: 384px; /* 根据需求调整高度 */
+    margin-top: 10px; /* 图片与文字之间的间距 */
+    justify-content: center;
+}
+
+/* 桥段回顾 */
+#reviewContainer, 
+#reviewDetailContainer {
+    display: none; /* 默认隐藏 */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow-y: auto; /* 使容器可以上下滚动 */
+    max-height: 90vh; /* 限制最大高度，避免溢出 */
+}
+
+#reviewContainer h2, 
+#reviewDetailContainer h2 {
+    margin-bottom: 20px;
+}
+
+#reviewContainer ul {
+    list-style-type: none;
+    padding: 0;
+    overflow-y: auto;
+    max-height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#reviewContainer li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FBFBFB;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 90%;
+}
+
+#reviewContainer li span {
+    flex-grow: 2;
+    text-align: center;
+}
+
+#reviewContainer li .button {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+#reviewDetailContainer pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* 使预览内容充满容器 */
+    max-width: 600px;
+    overflow: auto;
+}
+
+/* 添加媒体查询 */
+@media (max-width: 767px) {
+    body {
+        flex-direction: column;
+        justify-content: safe center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .button {
+        padding: 10px 15px;
+        font-size: 16px;
+        width: 90%; /* 在小屏幕上让按钮更宽 */
+    }
+
+    .image-container img {
+        max-height: 512px;
+        max-width: 512px;
+    }
+
+    .text-container {
+        max-height: 600px; /* 优化高度 */
+        min-height: 450px; /* 固定最小高度 */
+        padding: 5px; /* 缩小内间距 */
+    }
+
+    .controls input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        font-size: 14px; /* 调整输入框文字大小 */
+    }
+}
