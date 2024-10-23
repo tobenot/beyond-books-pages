@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>不止于纸上的故事</title>
+    <link rel="shortcut icon" href="assets/icon/BeyondBooksIcon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const timestamp = new Date().getTime();
+
+            // 加载所有CSS文件
+            const cssFiles = [
+                'reset.css',
+                'layout.css',
+                'typography.css',
+                'components.css',
+                'forms.css',
+                'utilities.css',
+                'animations.css',
+                'responsive.css',
+                'sections.css',
+                'settings.css',
+                'review.css',
+                'interaction.css',
+                'remaining.css'
+            ];
+
+            cssFiles.forEach(file => {
+                const link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = `css/${file}?v=${timestamp}`;
+                document.head.appendChild(link);
+            });
+
+            const script = document.createElement('script');
+            script.src = `scripts/startup.js?v=${timestamp}`;
+            script.onload = () => {
+                initializeApp().catch(err => {
+                    console.error("Error initializing app: ", err);
+                });
+            };
+            document.head.appendChild(script);
+        });
+    </script>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
