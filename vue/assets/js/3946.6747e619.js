@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[3946],{3946:(e,s,o)=>{e.exports=o.p+"assets/img/joan.52975214.png"}}]);

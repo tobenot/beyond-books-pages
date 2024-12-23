@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[8500],{8500:(e,s,o)=>{e.exports=o.p+"assets/img/background.98dc520f.png"}}]);
