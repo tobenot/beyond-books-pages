@@ -1,37 +1,48 @@
 {
   "characters": {
     "罗伯特": {
-      "prompt": "chinese，蓝色头发，蓝色眼睛，深蓝色拉链卫衣，撸起袖子，亮蓝色领带，白色衬衫，穿灰白色休闲裤，黑色鞋子，正常身高的青春少年, young_man，武器是一把黑色硬木长棍"
+      "chinesePrompt": "chinese，蓝色头发，蓝色眼睛，深蓝色拉链卫衣，撸起袖子，亮蓝色领带，白色衬衫，穿灰白色休闲裤，黑色鞋子，正常身高的青春少年, young_man，武器是一把黑色硬木长棍",
+      "englishPrompt": "blue hair, blue eyes, navy blue zip-up hoodie with rolled-up sleeves, bright blue tie, white shirt, gray casual pants, black shoes, average height teenage young man, weapon is a black hardwood staff"
     },
     "图尔斯": {
-      "prompt": "chinese，黑色头发，纯黑色夹克，白色深V领上衣，穿黑色长裤，扣皮带，黑色皮鞋，黑色短袜，正常身高的青春学生少年, young_man"
+      "chinesePrompt": "chinese，黑色头发，纯黑色夹克，白色深V领上衣，穿黑色长裤，扣皮带，黑色皮鞋，黑色短袜，正常身高的青春学生少年, young_man",
+      "englishPrompt": "black hair, pure black jacket, white deep V-neck top, black trousers, belt, black leather shoes, black short socks, average height teenage student, young man"
     },
     "卡斯帕": {
-      "prompt": "chinese，金色头发，绿色眼睛，红色夹克，黑色T恤，蓝色牛仔裤，白色运动鞋，白色运动袜，身高比较高的青春老师, young_man"
+      "chinesePrompt": "chinese，金色头发，绿色眼睛，红色夹克，黑色T恤，蓝色牛仔裤，白色运动鞋，白色运动袜，身高比较高的青春老师, young_man",
+      "englishPrompt": "blonde hair, green eyes, red jacket, black t-shirt, blue jeans, white sneakers, white athletic socks, tall young teacher, young man"
     },
     "克莱门特": {
-      "prompt": "chinese，白色短发，戴黑框眼镜，白色西装套装，白色衬衫，白色西裤，黑色皮鞋，黑色短袜，修身剪裁，身高比较高的年轻男性, young_man，背后有白色翅膀"
+      "chinesePrompt": "chinese，白色短发，戴黑框眼镜，白色西装套装，白色衬衫，白色西裤，黑色皮鞋，黑色短袜，修身剪裁，身高比较高的年轻男性, young_man，背后有白色翅膀",
+      "englishPrompt": "white short hair, black-rimmed glasses, white suit set, white dress shirt, white dress pants, black leather shoes, black short socks, slim fit, tall young man, white wings on back"
     },
     "斯图尔特": {
-      "prompt": "chinese，鲜红色短发，黑色眼睛，黑红相间的高领夹克，红色衬衫，黑色裤子，黑皮带，黑色皮鞋，黑色短袜，正常身高的年轻男性, young_man"
+      "chinesePrompt": "chinese，鲜红色短发，黑色眼睛，黑红相间的高领夹克，红色衬衫，黑色裤子，黑皮带，黑色皮鞋，黑色短袜，正常身高的年轻男性, young_man",
+      "englishPrompt": "bright red short hair, black eyes, black and red high-neck jacket, red shirt, black pants, black belt, black leather shoes, black short socks, average height young man"
     },
     "珂茵": {
-      "prompt": "chinese，金色短发，蓝色眼睛，水手服风格短袖校服，蓝色领巾，白色上衣，蓝色百褶裙，白色丝袜，棕色皮鞋，小巧的青春少女, young_girl"
+      "chinesePrompt": "chinese，金色短发，蓝色眼睛，水手服风格短袖校服，蓝色领巾，白色上衣，蓝色百褶裙，白色丝袜，棕色皮鞋，小巧的青春少女, young_girl",
+      "englishPrompt": "blonde short hair, blue eyes, sailor-style short-sleeve uniform, blue neckerchief, white top, blue pleated skirt, white stockings, brown leather shoes, petite teenage girl"
     },
     "琼": {
-      "prompt": "chinese，冰蓝色短发，冰蓝色眼睛，白色长袖风衣配蓝色装饰，蓝色蝴蝶结，蓝色袖口，蓝色百褶裙，裙子带白色花边，白色蕾丝短袜，黑色小皮鞋，娇小可爱的少女, young_girl"
+      "chinesePrompt": "chinese，冰蓝色短发，冰蓝色眼睛，白色长袖风衣配蓝色装饰，蓝色蝴蝶结，蓝色袖口，蓝色百褶裙，裙子带白色花边，白色蕾丝短袜，黑色小皮鞋，娇小可爱的少女, young_girl",
+      "englishPrompt": "ice blue short hair, ice blue eyes, white long-sleeve coat with blue decorations, blue bow, blue cuffs, blue pleated skirt with white lace trim, white lace socks, black small leather shoes, petite cute girl"
     },
     "田中连": {
-      "prompt": "chinese，青绿色长发，蓝色眼睛，黑色学院长袍，金色装饰边，白色衬衫，白色裤子，黑色长靴，身高比较高的女性, young_girl"
+      "chinesePrompt": "chinese，青绿色长发，蓝色眼睛，黑色学院长袍，金色装饰边，白色衬衫，白色裤子，黑色长靴，身高比较高的女性, young_girl",
+      "englishPrompt": "turquoise long hair, blue eyes, black academic robe with gold trim, white shirt, white pants, black boots, tall female"
     },
     "艾琳": {
-      "prompt": "chinese，粉色长发，粉紫色眼睛，蓝色连帽卫衣配粉色装饰，粉色百褶裙，白色裙边，白色短袜，粉色运动鞋，斜挎粉色小包，青春活泼的娇小少女, young_girl"
+      "chinesePrompt": "chinese，粉色长发，粉紫色眼睛，蓝色连帽卫衣配粉色装饰，粉色百褶裙，白色裙边，白色短袜，粉色运动鞋，斜挎粉色小包，青春活泼的娇小少女, young_girl",
+      "englishPrompt": "pink long hair, pink-purple eyes, blue hoodie with pink decorations, pink pleated skirt, white skirt trim, white short socks, pink sneakers, pink crossbody bag, lively petite teenage girl"
     },
     "诺顿": {
-      "prompt": "chinese，黑色和荧光绿双色短发，头发右边黑左边绿，发型前面略长盖住眉毛，两侧头发向上自然翘起呈尖锐状，整体呈现不对称的朋克风格，翠绿色眼睛，戴金色颈环，宽松的绿色V领上衣，黑色紧身裤，黑色马丁靴，正常身高的青春少年, young_man"
+      "chinesePrompt": "chinese，黑色和荧光绿双色短发，头发右边黑左边绿，发型前面略长盖住眉毛，两侧头发向上自然翘起呈尖锐状，整体呈现不对称的朋克风格，翠绿色眼睛，戴金色颈环，宽松的绿色V领上衣，黑色紧身裤，黑色马丁靴，正常身高的青春少年, young_man",
+      "englishPrompt": "two-tone black and neon green short hair, right side black left side green, front hair covering eyebrows, sides naturally spiked up, asymmetrical punk style, emerald green eyes, gold choker, loose green V-neck top, black skinny pants, black combat boots, average height teenage boy"
     },
     "辛妮亚": {
-      "prompt": "chinese，淡紫色飘逸长发及腰，蓝紫色明亮的眼睛，黑色修身纽扣办公制服，领口微敞，黑色短款百褶裙，裙摆飘动，黑色过膝袜，黑色高跟鞋，优雅神秘，身材高挑纤细的少女, young_girl"
+      "chinesePrompt": "chinese，淡紫色飘逸长发及腰，蓝紫色明亮的眼睛，黑色修身纽扣办公制服，领口微敞，黑色短款百褶裙，裙摆飘动，黑色过膝袜，黑色高跟鞋，优雅神秘，身材高挑纤细的少女, young_girl",
+      "englishPrompt": "light purple flowing waist-length hair, bright blue-purple eyes, black fitted button-up office uniform with slightly open collar, black short pleated skirt with flowing hem, black over-knee socks, black high heels, elegant and mysterious tall slender girl"
     }
   }
 } 
