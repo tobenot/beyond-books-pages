@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[9762],{9762:(o,e,s)=>{o.exports=s.p+"assets/icon/BeyondBooksIcon.ico"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[5763],{5763:(e,s,o)=>{e.exports=o.p+"assets/portrait/karin.png"}}]);

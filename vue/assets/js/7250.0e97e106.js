@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[7250],{7250:(s,e,o)=>{s.exports=o.p+"assets/scenarios/silver_moon/characters/robert/sections/section_2.bbs"}}]);

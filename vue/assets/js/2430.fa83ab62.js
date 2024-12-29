@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[2430],{2430:(s,e,o)=>{s.exports=o.p+"assets/scenarios/silver_moon/thumbnail.png"}}]);

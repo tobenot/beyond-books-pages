@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[2448],{2448:(s,e,o)=>{s.exports=o.p+"assets/lang/terms_explanations_zh-CN.json"}}]);
