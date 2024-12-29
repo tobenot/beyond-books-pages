@@ -43,6 +43,10 @@
     "辛妮亚": {
       "chinesePrompt": "chinese，淡紫色飘逸长发及腰，蓝紫色明亮的眼睛，黑色修身纽扣办公制服，领口微敞，黑色短款百褶裙，裙摆飘动，黑色过膝袜，黑色高跟鞋，优雅神秘，身材高挑纤细的少女, young_girl",
       "englishPrompt": "light purple flowing waist-length hair, bright blue-purple eyes, black fitted button-up office uniform with slightly open collar, black short pleated skirt with flowing hem, black over-knee socks, black high heels, elegant and mysterious tall slender girl"
+    },
+    "使者": {
+      "chinesePrompt": "chinese，深褐色短发，黑色眼睛，黑色商务西装，白色衬衫，深红色领带，黑色西裤，锃亮的黑色皮鞋，身材高大的成年男性，表情严肃冷峻, middle_aged_man",
+      "englishPrompt": "dark brown short hair, black eyes, black business suit, white dress shirt, dark red tie, black dress pants, polished black leather shoes, tall adult male with serious and stern expression, middle aged man"
     }
   }
 } 
