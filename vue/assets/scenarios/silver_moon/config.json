@@ -25,8 +25,8 @@
       "isDefault": false,
       "portraitPath": "portrait/corn",
       "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
+        "requiredSectionId": 1313,
+        "description": "制作中"
       }
     },
     {
@@ -36,8 +36,8 @@
       "isDefault": false,
       "portraitPath": "portrait/norton",
       "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
+        "requiredSectionId": 1313,
+        "description": "制作中"
       }
     },
     {
@@ -47,8 +47,8 @@
       "isDefault": false,
       "portraitPath": "portrait/xinnia",
       "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
+        "requiredSectionId": 1313,
+        "description": "制作中"
       }
     },
     {
@@ -58,8 +58,8 @@
       "isDefault": false,
       "portraitPath": "portrait/caspar",
       "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
+        "requiredSectionId": 1313,
+        "description": "制作中"
       }
     },
     {
@@ -69,8 +69,8 @@
       "isDefault": false,
       "portraitPath": "portrait/tours",
       "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
+        "requiredSectionId": 1313,
+        "description": "制作中"
       }
     },
     {
@@ -80,8 +80,8 @@
       "isDefault": false,
       "portraitPath": "portrait/stuart",
       "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
+        "requiredSectionId": 1313,
+        "description": "制作中"
       }
     },
     {
@@ -91,8 +91,8 @@
       "isDefault": false,
       "portraitPath": "portrait/clement",
       "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
+        "requiredSectionId": 1313,
+        "description": "制作中"
       }
     },
     {
@@ -102,19 +102,8 @@
       "isDefault": false,
       "portraitPath": "portrait/joan",
       "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
-      }
-    },
-    {
-      "id": "tanaka_ren",
-      "name": "田中连",
-      "description": "贝利斯集团领导,野心勃勃,觊觎银月寺的能量之体【折射】。",
-      "isDefault": false,
-      "portraitPath": "portrait/tanaka_ren",
-      "unlockConditions": {
-        "requiredSectionId": 21,
-        "description": "完成罗伯特的引子章节后解锁"
+        "requiredSectionId": 1313,
+        "description": "制作中"
       }
     }
   ],
