@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[7716],{7716:(e,s,o)=>{e.exports=o.p+"assets/portrait/cynthia.png"}}]);

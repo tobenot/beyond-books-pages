@@ -14,9 +14,108 @@
     {
       "id": "robert",
       "name": "罗伯特",
-      "description": "银月寺的保安,拥有【苍穹缝隙】异能。温和但坚定,在守护银月寺的过程中逐渐成长。",
+      "description": "银月寺只有四个保安，听说他就是其中最能打的那个。",
       "isDefault": true,
       "portraitPath": "portrait/robert"
+    },
+    {
+      "id": "corn",
+      "name": "珂茵",
+      "description": "银月寺的保安",
+      "isDefault": false,
+      "portraitPath": "portrait/corn",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
+    },
+    {
+      "id": "norton",
+      "name": "诺顿",
+      "description": "银月寺的保安",
+      "isDefault": false,
+      "portraitPath": "portrait/norton",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
+    },
+    {
+      "id": "xinnia",
+      "name": "辛妮亚",
+      "description": "银月寺的保安",
+      "isDefault": false,
+      "portraitPath": "portrait/xinnia",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
+    },
+    {
+      "id": "caspar",
+      "name": "卡斯帕",
+      "description": "银月大学棍术教师",
+      "isDefault": false,
+      "portraitPath": "portrait/caspar",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
+    },
+    {
+      "id": "tours",
+      "name": "图尔斯",
+      "description": "贝利斯雇佣兵",
+      "isDefault": false,
+      "portraitPath": "portrait/tours",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
+    },
+    {
+      "id": "stuart",
+      "name": "斯图尔特",
+      "description": "贝利斯雇佣兵",
+      "isDefault": false,
+      "portraitPath": "portrait/stuart",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
+    },
+    {
+      "id": "clement",
+      "name": "克莱门特",
+      "description": "贝利斯雇佣兵",
+      "isDefault": false,
+      "portraitPath": "portrait/clement",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
+    },
+    {
+      "id": "joan",
+      "name": "琼",
+      "description": "很可爱",
+      "isDefault": false,
+      "portraitPath": "portrait/joan",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
+    },
+    {
+      "id": "tanaka_ren",
+      "name": "田中连",
+      "description": "贝利斯集团领导,野心勃勃,觊觎银月寺的能量之体【折射】。",
+      "isDefault": false,
+      "portraitPath": "portrait/tanaka_ren",
+      "unlockConditions": {
+        "requiredSectionId": 21,
+        "description": "完成罗伯特的引子章节后解锁"
+      }
     }
   ],
   "category": "main",
