@@ -1,64 +1,80 @@
 {
   "characters": {
     "罗伯特": {
-      "chinesePrompt": "chinese，蓝色头发，蓝色眼睛，深蓝色拉链卫衣，撸起袖子，亮蓝色领带，白色衬衫，穿灰白色休闲裤，黑色鞋子，正常身高的青春少年, young_man，武器是一把黑色硬木长棍",
-      "englishPrompt": "blue hair, blue eyes, navy blue zip-up hoodie with rolled-up sleeves, bright blue tie, white shirt, gray casual pants, black shoes, average height teenage young man, weapon is a black hardwood staff"
+      "chinesePrompt": "chinese，蓝色头发，蓝色眼睛，深蓝色拉链卫衣，撸起袖子，亮蓝色领带，白色衬衫，穿灰白色休闲裤，黑色鞋子，正常身高的青春少年, young_man",
+      "englishPrompt": "blue hair, blue eyes, navy blue zip-up hoodie with rolled-up sleeves, bright blue tie, white shirt, gray casual pants, black shoes, average height teenage young man, weapon is a black hardwood staff, young_man"
     },
     "图尔斯": {
       "chinesePrompt": "chinese，黑色头发，纯黑色夹克，白色深V领上衣，穿黑色长裤，扣皮带，黑色皮鞋，黑色短袜，正常身高的青春学生少年, young_man",
-      "englishPrompt": "black hair, pure black jacket, white deep V-neck top, black trousers, belt, black leather shoes, black short socks, average height teenage student, young man"
+      "englishPrompt": "black hair, pure black jacket, white deep V-neck top, black trousers, belt, black leather shoes, black short socks, average height teenage student, young_man"
     },
     "卡斯帕": {
       "chinesePrompt": "chinese，金色头发，绿色眼睛，红色夹克，黑色T恤，蓝色牛仔裤，白色运动鞋，白色运动袜，身高比较高的青春老师, young_man",
-      "englishPrompt": "blonde hair, green eyes, red jacket, black t-shirt, blue jeans, white sneakers, white athletic socks, tall young teacher, young man"
+      "englishPrompt": "blonde hair, green eyes, red jacket, black t-shirt, blue jeans, white sneakers, white athletic socks, tall young teacher, young_man"
     },
     "克莱门特": {
       "chinesePrompt": "chinese，白色短发，戴黑框眼镜，白色西装套装，白色衬衫，白色西裤，黑色皮鞋，黑色短袜，修身剪裁，身高比较高的年轻男性, young_man，背后有白色翅膀",
-      "englishPrompt": "white short hair, black-rimmed glasses, white suit set, white dress shirt, white dress pants, black leather shoes, black short socks, slim fit, tall young man, white wings on back"
+      "englishPrompt": "white short hair, black-rimmed glasses, white suit set, white dress shirt, white dress pants, black leather shoes, black short socks, slim fit, tall young man, white wings on back, young_man"
     },
     "斯图尔特": {
       "chinesePrompt": "chinese，鲜红色短发，黑色眼睛，黑红相间的高领夹克，红色衬衫，黑色裤子，黑皮带，黑色皮鞋，黑色短袜，正常身高的年轻男性, young_man",
-      "englishPrompt": "bright red short hair, black eyes, black and red high-neck jacket, red shirt, black pants, black belt, black leather shoes, black short socks, average height young man"
+      "englishPrompt": "bright red short hair, black eyes, black and red high-neck jacket, red shirt, black pants, black belt, black leather shoes, black short socks, average height young man, young_man"
     },
     "珂茵": {
       "chinesePrompt": "chinese，金色短发，明亮活泼的大蓝眼睛，蓝色披肩配黑色领结，纯白色短袖，青色中等裙，白色丝袜，棕色皮鞋，充满朝气的青春少女, young_girl",
-      "englishPrompt": "blonde short hair, bright lively blue eyes, blue shawl with black bow tie, pure white short-sleeve top, cyan medium-length skirt, white stockings, brown leather shoes, energetic teenage girl"
+      "englishPrompt": "blonde short hair, bright lively blue eyes, blue shawl with black bow tie, pure white short-sleeve top, cyan medium-length skirt, white stockings, brown leather shoes, energetic teenage girl, young_girl"
     },
     "琼": {
       "chinesePrompt": "chinese，冰蓝色短发，发尾飘逸，冰蓝色眼睛，白色长袖风衣配蓝色装饰，蓝色蝴蝶结，蓝色袖口，蓝色百褶裙，裙子带白色花边，白色蕾丝短袜，黑色小皮鞋，娇小可爱的少女, young_girl",
-      "englishPrompt": "ice blue short hair, ice blue eyes, white long-sleeve coat with blue decorations, blue bow, blue cuffs, blue pleated skirt with white lace trim, white lace socks, black small leather shoes, petite cute girl"
+      "englishPrompt": "ice blue short hair, ice blue eyes, white long-sleeve coat with blue decorations, blue bow, blue cuffs, blue pleated skirt with white lace trim, white lace socks, black small leather shoes, petite cute girl, young_girl"
     },
     "田中连": {
       "chinesePrompt": "chinese，青绿色长发，蓝色眼睛，黑色学院长袍，金色装饰边，白色衬衫，白色裤子，黑色长靴，身高比较高的女性, young_girl",
-      "englishPrompt": "turquoise long hair, blue eyes, black academic robe with gold trim, white shirt, white pants, black boots, tall female"
+      "englishPrompt": "turquoise long hair, blue eyes, black academic robe with gold trim, white shirt, white pants, black boots, tall female, young_girl"
     },
     "艾琳": {
       "chinesePrompt": "chinese，粉色长发，粉紫色眼睛，蓝色连帽卫衣配粉色装饰，粉色百褶裙，白色裙边，白色短袜，粉色运动鞋，斜挎粉色小包，青春活泼的娇小少女, young_girl",
-      "englishPrompt": "pink long hair, pink-purple eyes, blue hoodie with pink decorations, pink pleated skirt, white skirt trim, white short socks, pink sneakers, pink crossbody bag, lively petite teenage girl"
+      "englishPrompt": "pink long hair, pink-purple eyes, blue hoodie with pink decorations, pink pleated skirt, white skirt trim, white short socks, pink sneakers, pink crossbody bag, lively petite teenage girl, young_girl"
     },
     "诺顿": {
       "chinesePrompt": "chinese，黑色和荧光绿双色短发，头发右边黑左边绿，发型前面略长盖住眉毛，两侧头发向上自然翘起呈尖锐状，整体呈现不对称的朋克风格，翠绿色眼睛，戴金色颈环，宽松的绿色V领上衣，黑色紧身裤，黑色马丁靴，正常身高的青春少年, young_man",
-      "englishPrompt": "two-tone black and neon green short hair, right side black left side green, front hair covering eyebrows, sides naturally spiked up, asymmetrical punk style, emerald green eyes, gold choker, loose green V-neck top, black skinny pants, black combat boots, average height teenage boy"
+      "englishPrompt": "two-tone black and neon green short hair, right side black left side green, front hair covering eyebrows, sides naturally spiked up, asymmetrical punk style, emerald green eyes, gold choker, loose green V-neck top, black skinny pants, black combat boots, average height teenage boy, young_man"
     },
     "辛妮亚": {
       "chinesePrompt": "chinese，淡紫色飘逸长发及腰，蓝紫色明亮的眼睛，黑紫色修身纽扣办公制服，领口微敞，黑色短款百褶裙，裙摆飘动，黑色过膝袜，黑色高跟鞋，优雅神秘，身材高挑纤细的少女, young_girl",
-      "englishPrompt": "light purple flowing waist-length hair, bright blue-purple eyes, black fitted button-up office uniform with slightly open collar, black short pleated skirt with flowing hem, black over-knee socks, black high heels, elegant and mysterious tall slender girl"
+      "englishPrompt": "light purple flowing waist-length hair, bright blue-purple eyes, black fitted button-up office uniform with slightly open collar, black short pleated skirt with flowing hem, black over-knee socks, black high heels, elegant and mysterious tall slender girl, young_girl"
     },
     "使者": {
       "chinesePrompt": "chinese，深褐色短发，黑色眼睛，黑色商务西装，白色衬衫，深红色领带，黑色西裤，锃亮的黑色皮鞋，身材高大的成年男性，表情严肃冷峻, middle_aged_man",
-      "englishPrompt": "dark brown short hair, black eyes, black business suit, white dress shirt, dark red tie, black dress pants, polished black leather shoes, tall adult male with serious and stern expression, middle aged man"
+      "englishPrompt": "dark brown short hair, black eyes, black business suit, white dress shirt, dark red tie, black dress pants, polished black leather shoes, tall adult male with serious and stern expression, middle_aged_man"
     },
     "史蒂文": {
-      "chinesePrompt": "chinese，灰白色短发，深棕色眼睛，穿着银白色和深灰色相间的僧袍，银色腰带，深灰色长裤，黑色布鞋，身材高大的中年男性，表情庄重, middle_aged_man",
-      "englishPrompt": "gray-white short hair, dark brown eyes, silver and dark gray monk robe, silver belt, dark gray pants, black cloth shoes, tall middle-aged man with solemn expression"
+      "chinesePrompt": "chinese，深棕色短发略带灰白，蓝紫色眼睛，穿着浅蓝色简单T恤，深蓝色牛仔裤，灰色布鞋，身材高大结实的中年男性，表情温和但略显疲惫, middle_aged_man",
+      "englishPrompt": "short brown hair with some gray, blue-purple eyes, light blue simple t-shirt, dark blue jeans, gray canvas shoes, tall and sturdy middle-aged man with gentle but tired expression"
     },
     "罪恶猎手": {
-      "chinesePrompt": "chinese，黑色短发，脸上有一道狭长的疤痕，穿着战术背心和黑色作战服，背着一把改装的复合弩，戴着战术手套，身材精壮的年轻男性，眼神冷酷, young_man",
-      "englishPrompt": "black short hair, long scar on face, tactical vest and black combat uniform, high-tech equipment and tactical flashlight on belt, modified compound crossbow on back, quiver with special bolts, tactical gloves, athletic young man with cold eyes"
+      "chinesePrompt": "chinese，黑色短发，脸上有一道狭长的疤痕，穿着战术背心和黑色作战服，戴着战术手套，身材精壮的年轻男性，眼神冷酷, young_man",
+      "englishPrompt": "black short hair, long scar on face, tactical vest and black combat uniform, tactical gloves, athletic young man with cold eyes"
+    },
+    "冷锋": {
+      "chinesePrompt": "chinese，黑色短发，脸上有一道狭长的疤痕，穿着黑色战术背心和迷彩作战服，肩上扛着一把改装的自动步枪，腰间挂着战术刀，戴着战术手套，身材高大的中年男性，眼神冷酷, middle_aged_man",
+      "englishPrompt": "black short hair, long scar on face, black tactical vest and camouflage combat uniform, modified assault rifle on shoulder, tactical knife on belt, tactical gloves, tall middle-aged man with cold eyes, middle_aged_man"
+    },
+    "银狐": {
+      "chinesePrompt": "chinese，银白色长发扎成马尾，戴着黑色战术护目镜，穿着贴身的黑色作战服，背着一把复合弩，腰间挂着各种陷阱装置，身材苗条的年轻女性，带着嘲讽的笑容, young_girl",
+      "englishPrompt": "silver-white hair in ponytail, black tactical goggles, form-fitting black combat uniform, compound crossbow on back, various trap devices on belt, slender young woman with a mocking smile, young_girl"
+    },
+    "铁拳": {
+      "chinesePrompt": "chinese，光头，戴着黑色墨镜，穿着无袖黑色战术背心露出强壮的手臂，黑色作战裤，背后挂着一把战术斧，戴着黑色指节手套，身材魁梧的中年男性，表情冷峻, middle_aged_man",
+      "englishPrompt": "bald head, black sunglasses, sleeveless black tactical vest showing muscular arms, black combat pants, tactical axe on back, black knuckle gloves, burly middle-aged man with stern expression, middle_aged_man"
+    },
+    "狂花": {
+      "chinesePrompt": "chinese，紫红色短发，戴着黑色choker，穿着露腰的黑色战术背心和紧身作战裤，腰间挂着双匕首，戴着露指手套，身材矫健的年轻女性，笑容灿烂, young_girl",
+      "englishPrompt": "purple-red short hair, black choker, midriff-baring black tactical vest and tight combat pants, dual daggers on belt, fingerless gloves, athletic young woman with bright smile, young_girl"
     },
     "猎人": {
       "chinesePrompt": "chinese，深褐色皮肤，络腮胡，穿着深绿色猎装，棕色皮靴，背着猎枪，腰间挂着狩猎工具，戴着破旧的棕色猎人帽，身材魁梧的中年男性, middle_aged_man",
-      "englishPrompt": "dark brown skin, full beard, dark green hunting outfit, brown leather boots, hunting rifle on back, hunting tools on belt, worn brown hunter's hat, burly middle-aged man"
+      "englishPrompt": "dark brown skin, full beard, dark green hunting outfit, brown leather boots, hunting rifle on back, hunting tools on belt, worn brown hunter's hat, burly middle-aged man, middle_aged_man"
     }
   }
 } 
