@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[591],{591:(s,e,o)=>{s.exports=o.p+"assets/config/version.json"}}]);
