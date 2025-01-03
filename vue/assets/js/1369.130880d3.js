@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[1369],{1369:(e,s,o)=>{e.exports=o.p+"assets/portrait/norton.png"}}]);

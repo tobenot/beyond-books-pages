@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[872],{872:(s,e,o)=>{s.exports=o.p+"assets/portrait/tours.png"}}]);

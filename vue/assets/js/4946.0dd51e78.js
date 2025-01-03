@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[4946],{4946:(e,s,o)=>{e.exports=o.p+"assets/portrait/tanaka_ren.png"}}]);
