@@ -30,8 +30,8 @@
         "icon": "🔪",
         "description": "田中连死了",
         "hideDefault": true,
-        "defaultAlternateName": "重要人物伤亡",
-        "defaultAlternateDesc": "发生了重要人物伤亡事件"
+        "defaultAlternateName": "隐藏影响点",
+        "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
       },
       "defaults": [
         {
@@ -80,10 +80,12 @@
       "id": "norton_love_robert",
       "type": "character_relationship",
       "display": {
-        "name": "诺顿爱上罗伯特",
+        "name": "对罗伯特的好感",
         "icon": "💕",
         "description": "诺顿对罗伯特产生了爱慕之情",
-        "hideDefault": true
+        "hideDefault": true,
+        "defaultAlternateName": "隐藏影响点",
+        "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
       },
       "defaults": [
         {
@@ -103,7 +105,9 @@
         "name": "对罗伯特的好感",
         "icon": "💝",
         "description": "珂茵对罗伯特产生了爱慕之情",
-        "hideDefault": true
+        "hideDefault": true,
+        "defaultAlternateName": "隐藏影响点",
+        "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
       },
       "defaults": [
         {
@@ -116,8 +120,8 @@
       "id": "recorded_threat",
       "type": "plot_event",
       "visibility": {
-        "level": "group",
-        "knownBy": ["银月寺保安"]
+        "level": "public",
+        "knownBy": "*"
       },
       "display": {
         "name": "被录下威胁动作",
@@ -125,7 +129,7 @@
         "description": "被车上的行车记录仪录下了可能被贝利斯用来恶意剪辑的威胁动作",
         "hideDefault": true,
         "defaultAlternateName": "留下把柄",
-        "defaultAlternateDesc": "某些行为可能被对方利用"
+        "defaultAlternateDesc": "你的某些行为可能被对方利用"
       },
       "defaults": [
         {
