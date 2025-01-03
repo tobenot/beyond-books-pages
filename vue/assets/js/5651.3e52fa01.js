@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[5651],{5651:(e,s,o)=>{e.exports=o.p+"assets/config/global_influences.json"}}]);

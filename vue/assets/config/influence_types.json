@@ -1,0 +1,46 @@
+{
+  "types": [
+    {
+      "id": "character_death",
+      "name": "角色死亡",
+      "category": "character_state"
+    },
+    {
+      "id": "character_relationship",
+      "name": "角色关系",
+      "category": "relationship"
+    },
+    {
+      "id": "item_possession",
+      "name": "物品持有",
+      "category": "item"
+    },
+    {
+      "id": "plot_event",
+      "name": "剧情事件",
+      "category": "plot"
+    }
+  ],
+  "visibilityLevels": {
+    "public": {
+      "id": "public",
+      "name": "公开影响",
+      "description": "所有角色都知道的影响，如'田中连之死'"
+    },
+    "group": {
+      "id": "group",
+      "name": "群体影响",
+      "description": "特定群体知道的影响，如'银月寺高层的决策'"
+    },
+    "personal": {
+      "id": "personal",
+      "name": "个人影响",
+      "description": "只有特定角色知道的影响，如'珂茵的感情变化'"
+    },
+    "hidden": {
+      "id": "hidden",
+      "name": "隐藏影响",
+      "description": "只有主持人知道的影响，用于剧情推进"
+    }
+  }
+} 

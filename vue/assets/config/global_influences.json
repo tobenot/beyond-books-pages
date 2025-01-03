@@ -1,0 +1,138 @@
+{
+  "influences": [
+    {
+      "id": "robert_killed_tanaka",
+      "type": "character_death",
+      "display": {
+        "name": "罗伯特杀死田中连",
+        "icon": "🔪",
+        "description": "罗伯特杀死了田中连",
+        "hideDefault": true,
+        "defaultAlternateName": "重要人物伤亡",
+        "defaultAlternateDesc": "发生了重要人物伤亡事件"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "killed_tanaka",
+      "type": "character_death",
+      "visibility": {
+        "level": "public",
+        "knownBy": "*"
+      },
+      "display": {
+        "name": "田中连之死",
+        "icon": "🔪",
+        "description": "田中连死了",
+        "hideDefault": true,
+        "defaultAlternateName": "重要人物伤亡",
+        "defaultAlternateDesc": "发生了重要人物伤亡事件"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_after_bridge_war",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "robert_got_sword",
+      "type": "item_possession",
+      "display": {
+        "name": "罗伯特获得宝剑",
+        "icon": "⚔️",
+        "description": "罗伯特获得了一把宝剑",
+        "hideDefault": false
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "attack_messenger",
+      "type": "plot_event",
+      "display": {
+        "name": "攻击使者",
+        "icon": "👊",
+        "description": "攻击了贝利斯集团的使者",
+        "hideDefault": false
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "norton_love_robert",
+      "type": "character_relationship",
+      "display": {
+        "name": "诺顿爱上罗伯特",
+        "icon": "💕",
+        "description": "诺顿对罗伯特产生了爱慕之情",
+        "hideDefault": true
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "kohane_love_robert",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["珂茵"]
+      },
+      "display": {
+        "name": "对罗伯特的好感",
+        "icon": "💝",
+        "description": "珂茵对罗伯特产生了爱慕之情",
+        "hideDefault": true
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "recorded_threat",
+      "type": "plot_event",
+      "visibility": {
+        "level": "group",
+        "knownBy": ["银月寺保安"]
+      },
+      "display": {
+        "name": "被录下威胁动作",
+        "icon": "📹",
+        "description": "被车上的行车记录仪录下了可能被贝利斯用来恶意剪辑的威胁动作",
+        "hideDefault": true,
+        "defaultAlternateName": "留下把柄",
+        "defaultAlternateDesc": "某些行为可能被对方利用"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        }
+      ]
+    }
+  ]
+} 

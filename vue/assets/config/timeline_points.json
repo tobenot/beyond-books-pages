@@ -1,0 +1,58 @@
+{
+  "points": [
+    {
+      "id": "original_time",
+      "name": "原时间点",
+      "timeDesc": "最初的时间线，一般用于初始化",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_before_gate_pressure",
+      "name": "2011年大门施压前",
+      "timeDesc": "银月篇初始时间点",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_gate_pressure",
+      "name": "2011年大门施压",
+      "timeDesc": "贝利斯集团在银月寺大门前施压，要求交出【折射】",
+      "scenario": "silver_moon"
+    },
+    {
+        "id": "2011_before_dawn_battle",
+        "name": "2011年破晓行动前",
+        "timeDesc": "银月寺内与贝利斯集团发生首次正面冲突前",
+        "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_dawn_battle",
+      "name": "2011年破晓行动",
+      "timeDesc": "银月寺内与贝利斯集团发生首次正面冲突",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_forest_chase",
+      "name": "2011年森林追击",
+      "timeDesc": "在银月寺附近森林中追击贝利斯集团成员",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_snow_storm",
+      "name": "2011年森林之战",
+      "timeDesc": "在冰雪风暴中银月寺追兵与贝利斯集团展开激烈战斗",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_temple_defense",
+      "name": "2011年寺院保卫战",
+      "timeDesc": "在银月寺内部与贝利斯集团进行最终决战",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_post_war",
+      "name": "2011年战后时期",
+      "timeDesc": "一系列战斗结束后的重建时期",
+      "scenario": "silver_moon"
+    }
+  ]
+} 
