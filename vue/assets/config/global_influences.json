@@ -438,7 +438,7 @@
       "type": "character_relationship",
       "visibility": {
         "level": "personal",
-        "knownBy": ["琼"]
+        "knownBy": ["琼", "斯图尔特"]
       },
       "display": {
         "name": "琼的反感",

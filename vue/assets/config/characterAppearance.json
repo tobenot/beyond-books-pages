@@ -75,6 +75,10 @@
     "猎人": {
       "chinesePrompt": "chinese，深褐色皮肤，络腮胡，穿着深绿色猎装，棕色皮靴，背着猎枪，腰间挂着狩猎工具，戴着破旧的棕色猎人帽，身材魁梧的中年男性, middle_aged_man",
       "englishPrompt": "dark brown skin, full beard, dark green hunting outfit, brown leather boots, hunting rifle on back, hunting tools on belt, worn brown hunter's hat, burly middle-aged man, middle_aged_man"
+    },
+    "杰瑞斯": {
+      "chinesePrompt": "chinese，黑色短发略微凌乱，深蓝色明亮的眼睛，穿着深灰色战术风衣配红色飘带装饰，内搭白色修身上衣，腰间系着银色装备带，黑色战术长裤，黑色作战靴，手持一把银色匕首，身材挺拔的少年，眼神锐利张扬, young_man",
+      "englishPrompt": "messy black short hair, bright dark blue eyes, dark gray tactical coat with red ribbon decorations, white fitted shirt underneath, silver equipment belt, black tactical pants, black combat boots, wielding a silver dagger, tall teenage boy with sharp and bold eyes, young_man"
     }
   }
 } 
