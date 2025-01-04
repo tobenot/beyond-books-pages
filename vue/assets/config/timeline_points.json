@@ -43,6 +43,30 @@
       "scenario": "silver_moon"
     },
     {
+      "id": "2011_after_dawn",
+      "name": "2011年破晓行动后",
+      "timeDesc": "破晓行动后的善后时期",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_visit_joan",
+      "name": "2011年拜访琼",
+      "timeDesc": "拜访望穿秋水的主人琼",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_before_clean_up_action",
+      "name": "2011年清扫行动前",
+      "timeDesc": "为了防御贝利斯集团的入侵，银月寺已完成了农田、发电风车和城墙弩机的建设。",
+      "scenario": "silver_moon"
+    },
+    {
+      "id": "2011_clean_up_action",
+      "name": "2011年清扫行动",
+      "timeDesc": "贝利斯集团对银月寺发动了又一次突袭，名为【清扫行动】，对银月寺所持能量之体【折射】宣称保管权。",
+      "scenario": "silver_moon"
+    },
+    {
       "id": "2011_temple_defense",
       "name": "2011年寺院保卫战",
       "timeDesc": "在银月寺内部与贝利斯集团进行最终决战",

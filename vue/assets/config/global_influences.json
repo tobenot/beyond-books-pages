@@ -1,24 +1,6 @@
 {
   "influences": [
     {
-      "id": "robert_killed_tanaka",
-      "type": "character_death",
-      "display": {
-        "name": "罗伯特杀死田中连",
-        "icon": "🔪",
-        "description": "罗伯特杀死了田中连",
-        "hideDefault": true,
-        "defaultAlternateName": "重要人物伤亡",
-        "defaultAlternateDesc": "发生了重要人物伤亡事件"
-      },
-      "defaults": [
-        {
-          "timePoint": "original_time",
-          "value": false
-        }
-      ]
-    },
-    {
       "id": "killed_tanaka",
       "type": "character_death",
       "visibility": {
@@ -45,13 +27,19 @@
       ]
     },
     {
-      "id": "robert_got_sword",
-      "type": "item_possession",
+      "id": "protect_airin",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["艾琳", "田中连"]
+      },
       "display": {
-        "name": "罗伯特获得宝剑",
-        "icon": "⚔️",
-        "description": "罗伯特获得了一把宝剑",
-        "hideDefault": false
+        "name": "保护艾琳",
+        "icon": "🛡️",
+        "description": "在初次见面时主动保护了艾琳",
+        "hideDefault": true,
+        "defaultAlternateName": "与新生的关系",
+        "defaultAlternateDesc": "与新生的互动可能影响后续发展"
       },
       "defaults": [
         {
@@ -79,10 +67,14 @@
     {
       "id": "norton_love_robert",
       "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["诺顿"]
+      },
       "display": {
-        "name": "对罗伯特的好感",
+        "name": "诺顿对罗伯特的好感",
         "icon": "💕",
-        "description": "诺顿对罗伯特产生了爱慕之情",
+        "description": "诺顿觉得罗伯特做的非常好",
         "hideDefault": true,
         "defaultAlternateName": "隐藏影响点",
         "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
@@ -95,16 +87,16 @@
       ]
     },
     {
-      "id": "kohane_love_robert",
+      "id": "corn_love_robert",
       "type": "character_relationship",
       "visibility": {
         "level": "personal",
         "knownBy": ["珂茵"]
       },
       "display": {
-        "name": "对罗伯特的好感",
+        "name": "珂茵对罗伯特的好感",
         "icon": "💝",
-        "description": "珂茵对罗伯特产生了爱慕之情",
+        "description": "珂茵觉得罗伯特做的非常好",
         "hideDefault": true,
         "defaultAlternateName": "隐藏影响点",
         "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
@@ -134,6 +126,335 @@
       "defaults": [
         {
           "timePoint": "original_time",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_dawn_turs_peaceful_surrender",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["图尔斯"]
+      },
+      "display": {
+        "name": "图尔斯和平投降",
+        "icon": "🤝",
+        "description": "图尔斯在破晓行动中选择了和平离开，避免了不必要的流血冲突",
+        "hideDefault": true,
+        "defaultAlternateName": "突击队员态度",
+        "defaultAlternateDesc": "突击队员的立场可能会发生变化"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_dawn_battle",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_dawn_corn_love_robert",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["珂茵"]
+      },
+      "display": {
+        "name": "安抚珂茵",
+        "icon": "💝",
+        "description": "在森林追击时成功安抚了珂茵的情绪"
+      },
+      "defaults": [
+        {
+          "timePoint": "2011_forest_chase",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "2011_snow_storm_joan_peace",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["琼", "斯图尔特"]
+      },
+      "display": {
+        "name": "与琼和解",
+        "icon": "❄️",
+        "description": "在冰雪风暴战斗中避免与琼和斯图尔特发生直接冲突",
+        "hideDefault": true,
+        "defaultAlternateName": "神秘少女的态度",
+        "defaultAlternateDesc": "森林中神秘少女的立场可能会影响后续发展"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_snow_storm",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_after_dawn_injury_deduction",
+      "type": "plot_event",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["罗伯特"]
+      },
+      "display": {
+        "name": "推理重伤原因",
+        "icon": "🔍",
+        "description": "尝试推理出史蒂文和辛妮亚失去异能的真正原因",
+        "hideDefault": true,
+        "defaultAlternateName": "重伤事件调查",
+        "defaultAlternateDesc": "关于重伤事件的调查还在继续"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_after_dawn",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_night_norton_love_robert",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["诺顿"]
+      },
+      "display": {
+        "name": "与诺顿的友谊",
+        "icon": "📚",
+        "description": "在夜间巡逻时与诺顿进行了愉快的交谈，增进了感情",
+        "hideDefault": true,
+        "defaultAlternateName": "同事关系",
+        "defaultAlternateDesc": "与同事的关系可能会随着互动发生变化"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_after_dawn",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_after_dawn_norton_love_robert",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["诺顿"]
+      },
+      "display": {
+        "name": "诺顿的好感",
+        "icon": "💕",
+        "description": "在建设项目中与诺顿建立了更深的感情",
+        "hideDefault": true,
+        "defaultAlternateName": "同事关系",
+        "defaultAlternateDesc": "与同事的关系可能会随着共同工作发生变化"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_after_dawn",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_after_dawn_corn_love_robert",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["珂茵"]
+      },
+      "display": {
+        "name": "珂茵的好感",
+        "icon": "💝",
+        "description": "在建设项目中与珂茵建立了更深的感情",
+        "hideDefault": true,
+        "defaultAlternateName": "同事关系",
+        "defaultAlternateDesc": "与同事的关系可能会随着共同工作发生变化"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_after_dawn",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_visit_joan_sin_hunter_gun",
+      "type": "plot_event",
+      "visibility": {
+        "level": "group",
+        "knownBy": ["罪恶猎手"]
+      },
+      "display": {
+        "name": "缴获步枪",
+        "icon": "🔫",
+        "description": "从罪恶猎手冷锋手中抢走了自动步枪并带走了",
+        "hideDefault": true,
+        "defaultAlternateName": "武器收缴",
+        "defaultAlternateDesc": "在与罪恶猎手的冲突中缴获了他们的武器"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_visit_joan",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_visit_joan_ice_dragon",
+      "type": "plot_event",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["罗伯特", "琼"]
+      },
+      "display": {
+        "name": "冰龙幻象",
+        "icon": "🐉",
+        "description": "在望穿秋水湖中见到了冰龙的幻象",
+        "hideDefault": true,
+        "defaultAlternateName": "隐藏影响点",
+        "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_visit_joan",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "2011_visit_joan_dragon_detail",
+      "type": "plot_event",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["罗伯特", "琼"]
+      },
+      "display": {
+        "name": "描述冰龙",
+        "icon": "📝",
+        "description": "向琼描述了冰龙的外观细节",
+        "hideDefault": true,
+        "defaultAlternateName": "隐藏影响点",
+        "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_visit_joan",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "2011_visit_joan_star_taken",
+      "type": "plot_event",
+      "visibility": {
+        "level": "public",
+        "knownBy": ["贝利斯雇佣兵", "琼", "罗伯特"]
+      },
+      "display": {
+        "name": "【星辰】被夺",
+        "icon": "⭐",
+        "description": "贝利斯集团夺走了琼的能量之体【星辰】",
+        "hideDefault": false
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_visit_joan",
+          "value": true
+        }
+      ]
+    },
+    {
+      "id": "2011_visit_joan_love_robert",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["琼"]
+      },
+      "display": {
+        "name": "琼的好感",
+        "icon": "💝",
+        "description": "琼对罗伯特产生了好感",
+        "hideDefault": true,
+        "defaultAlternateName": "隐藏影响点",
+        "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_visit_joan",
+          "value": false
+        }
+      ]
+    },
+    {
+      "id": "2011_visit_joan_hate_robert",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["琼"]
+      },
+      "display": {
+        "name": "琼的反感",
+        "icon": "💔",
+        "description": "琼对罗伯特产生了反感",
+        "hideDefault": true,
+        "defaultAlternateName": "隐藏影响点",
+        "defaultAlternateDesc": "这个影响点是完全隐藏的，只有触发了才会显示"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_visit_joan",
           "value": false
         }
       ]
