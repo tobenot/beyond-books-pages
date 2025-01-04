@@ -77,8 +77,17 @@
       "englishPrompt": "dark brown skin, full beard, dark green hunting outfit, brown leather boots, hunting rifle on back, hunting tools on belt, worn brown hunter's hat, burly middle-aged man, middle_aged_man"
     },
     "杰瑞斯": {
-      "chinesePrompt": "chinese，黑色短发略微凌乱，深蓝色明亮的眼睛，穿着深灰色战术风衣配红色飘带装饰，内搭白色修身上衣，腰间系着银色装备带，黑色战术长裤，黑色作战靴，手持一把银色匕首，身材挺拔的少年，眼神锐利张扬, young_man",
-      "englishPrompt": "messy black short hair, bright dark blue eyes, dark gray tactical coat with red ribbon decorations, white fitted shirt underneath, silver equipment belt, black tactical pants, black combat boots, wielding a silver dagger, tall teenage boy with sharp and bold eyes, young_man"
+      "chinesePrompt": "chinese，黑色短发略微凌乱，深蓝色明亮的眼睛，穿着深灰色战术风衣配红色飘带装饰，内搭白色修身上衣，腰间系着银色装备带，黑色战术长裤，黑色作战靴，手持一把银色匕首，身材挺拔的男孩，眼神锐利张扬, young_boy",
+      "englishPrompt": "messy black short hair, bright dark blue eyes, dark gray tactical coat with red ribbon decorations, white fitted shirt underneath, silver equipment belt, black tactical pants, black combat boots, wielding a silver dagger, tall teenage boy with sharp and bold eyes, young_boy"
+    },
+    "间谍": {
+      "chinesePrompt": "chinese，深灰色短发，脸上有着冷酷的表情，穿着黑色紧身战术服，腰间系着橙色装备带，黑色战术长裤，黑色作战靴，手持一把锋利的大刀，身材精瘦的年轻男性，眼神阴冷, young_man",
+      "englishPrompt": "dark gray short hair, cold expression on face, black fitted tactical suit, orange equipment belt, black tactical pants, black combat boots, wielding a sharp sword, lean young man with cold eyes, young_man"
+    }
+    ,
+    "贝利斯领导": {
+      "chinesePrompt": "chinese，灰白色短发整齐后梳，深褐色眼睛，穿着白色军装制服配金色肩章和勋章，内搭橙色高领毛衣，白色军装长裤配橙色条纹，黑色军靴，腰间佩戴军刀和橙色腰带，身材挺拔的中年男性，表情高傲威严, middle_aged_man",
+      "englishPrompt": "neat gray-white short hair combed back, dark brown eyes, white military uniform with gold epaulettes and medals, orange turtleneck sweater underneath, white military pants with orange stripes, black military boots, sword at waist with orange belt, tall middle-aged man with proud and imposing expression, middle_aged_man"
     }
   }
 } 

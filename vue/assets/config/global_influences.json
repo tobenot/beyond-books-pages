@@ -458,6 +458,32 @@
           "value": false
         }
       ]
+    },
+    {
+      "id": "2011_clean_up_turs_duel",
+      "type": "character_relationship",
+      "visibility": {
+        "level": "personal",
+        "knownBy": ["图尔斯"]
+      },
+      "display": {
+        "name": "与图尔斯的决斗",
+        "icon": "⚔️",
+        "description": "在清扫行动中与图尔斯进行了一场公平的单挑决斗",
+        "hideDefault": true,
+        "defaultAlternateName": "东门对决",
+        "defaultAlternateDesc": "在东门的战斗中做出的选择可能影响后续发展"
+      },
+      "defaults": [
+        {
+          "timePoint": "original_time",
+          "value": false
+        },
+        {
+          "timePoint": "2011_clean_up_action",
+          "value": false
+        }
+      ]
     }
   ]
 } 
