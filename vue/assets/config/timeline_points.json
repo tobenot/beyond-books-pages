@@ -67,15 +67,9 @@
       "scenario": "silver_moon"
     },
     {
-      "id": "2011_temple_defense",
-      "name": "2011年寺院保卫战",
-      "timeDesc": "在银月寺内部与贝利斯集团进行最终决战",
-      "scenario": "silver_moon"
-    },
-    {
-      "id": "2011_post_war",
-      "name": "2011年战后时期",
-      "timeDesc": "一系列战斗结束后的重建时期",
+      "id": "2011_after_clean_up_action",
+      "name": "2011年清扫行动后",
+      "timeDesc": "清扫行动后，银月寺与贝利斯集团达成和解，贝利斯集团撤军，银月寺开始重建",
       "scenario": "silver_moon"
     }
   ]
