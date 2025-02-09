@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[5475],{5475:(e,s,o)=>{e.exports=o.p+"assets/media/ice_snow_storm_enemy_defeat_tuls.ac8823d0.mp4"}}]);
