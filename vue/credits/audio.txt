@@ -1,0 +1,35 @@
+Beyond-Books 音频素材鸣谢 / Audio Credits
+
+本文件列出当前随游戏分发的音乐与音效素材。音乐仅作为游戏内背景内容使用，不提供独立音乐下载或音乐播放器服务。
+
+MUSIC
+
+心の中の小さな宇宙 / A Small Universe Inside the Heart
+Composer: Yuyake Monster
+Source: https://dova-s.jp/bgm/detail/14532
+License information: https://dova-s.jp/en/help/articles/license/
+Usage: bundled in-game background music, menu scene
+
+新緑芽吹く頃 / When Fresh Green Begins to Sprout
+Composer: 蒲鉾さちこ
+Source: https://dova-s.jp/bgm/detail/16331
+License information: https://dova-s.jp/en/help/articles/license/
+Usage: bundled in-game background music, calm story scene
+
+魔法使いと振り子時計 / The Wizard and the Pendulum Clock
+Composer: しゃろう
+Source: https://dova-s.jp/bgm/detail/2761
+License information: https://dova-s.jp/en/help/articles/license/
+Usage: bundled in-game background music, tense story scene
+
+SOUND EFFECTS
+
+Kenney audio assets are credited to Kenney / kenney.nl. The applicable package license is included beside the distributed files at assets/audio/sfx/LICENSE-KENNEY.txt.
+Official asset pages:
+https://kenney.nl/assets/interface-sounds
+https://kenney.nl/assets/ui-audio
+https://kenney.nl/assets/rpg-audio
+https://kenney.nl/assets/impact-sounds
+License reference: https://creativecommons.org/publicdomain/zero/1.0/
+
+The final human listening and player-experience review is still pending. Source pages and package license evidence must be rechecked before any future replacement or redistribution.
