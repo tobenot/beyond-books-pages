@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[8718],{8718:(e,s,o)=>{e.exports=o.p+"assets/config/characterAppearance.json"}}]);

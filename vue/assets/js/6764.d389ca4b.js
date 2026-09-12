@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[6764],{6764:(s,e,o)=>{s.exports=o.p+"assets/icon/settings-icon.png"}}]);

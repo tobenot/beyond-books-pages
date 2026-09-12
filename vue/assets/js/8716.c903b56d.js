@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[8716],{98716:(e,s,k)=>{k.d(s,{createPacketServices:()=>b.$});var b=k(59811);k(58198)}}]);

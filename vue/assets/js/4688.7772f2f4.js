@@ -1,1 +1,0 @@
-"use strict";(self["webpackChunkbeyond_books_vue"]=self["webpackChunkbeyond_books_vue"]||[]).push([[4688],{4688:(s,e,o)=>{s.exports=o.p+"assets/scenarios/silver_moon/config.json"}}]);

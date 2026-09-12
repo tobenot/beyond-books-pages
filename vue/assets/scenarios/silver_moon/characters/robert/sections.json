@@ -123,7 +123,8 @@
                     "tags": ["puzzle"]
                 },
                 {
-                    "title": "夜间巡逻(支线)",
+                    "title": "夜间巡逻",
+                    "displayTitle": "夜间巡逻(支线)",
                     "file": "section_7.bbs",
                     "id": 7,
                     "preconditions": [
@@ -138,7 +139,8 @@
                     "tags": ["combat"]
                 },
                 {
-                    "title": "躬耕银月(支线)",
+                    "title": "躬耕银月",
+                    "displayTitle": "躬耕银月(支线)",
                     "file": "section_8.bbs",
                     "id": 8,
                     "preconditions": [
@@ -153,7 +155,8 @@
                     "tags": ["puzzle"]
                 },
                 {
-                    "title": "棍术课堂(支线)",
+                    "title": "棍术课堂",
+                    "displayTitle": "棍术课堂(支线)",
                     "file": "section_9.bbs",
                     "id": 9,
                     "preconditions": [
@@ -225,7 +228,8 @@
             "id": 5,
             "sections": [
                 {
-                    "title": "漫漫长夜(支线)",
+                    "title": "漫漫长夜",
+                    "displayTitle": "漫漫长夜(支线)",
                     "file": "section_13.bbs",
                     "id": 13,
                     "preconditions": [
@@ -237,7 +241,7 @@
                     ],
                     "image": "/section_thumbnail/thumbnail-13.jpg",
                     "type": "story",
-                    "tags": ["combat"]
+                    "tags": ["romance", "combat"]
                 },
                 {
                     "title": "卷土重来",
@@ -270,7 +274,8 @@
                     "tags": []
                 },
                 {
-                    "title": "烽烟东阙(决战)",
+                    "title": "烽烟东阙",
+                    "displayTitle": "烽烟东阙(决战)",
                     "file": "section_16.bbs",
                     "id": 16,
                     "preconditions": [
@@ -300,7 +305,8 @@
                     "tags": ["story"]
                 },
                 {
-                    "title": "篝火烤鱼(完结)",
+                    "title": "篝火烤鱼",
+                    "displayTitle": "篝火烤鱼(完结)",
                     "file": "section_18.bbs",
                     "id": 18,
                     "preconditions": [
